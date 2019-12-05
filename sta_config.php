@@ -15,6 +15,6 @@ mysql_select_db($mysql_database, $bd) or die("no database found");
 				}
 				else
 				{
-					header('location: /rljit_cse/login.html');
+					header('location:login.html');
 				}		
 ?>
