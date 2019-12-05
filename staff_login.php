@@ -32,7 +32,7 @@
 	<div id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<h1><a href="http://rljit.in/"><img align="left" src="/rljit_cse/logo6.jfif" alt="RLJIT" height="40" width="42"/>RLJIT</a></h1>
+			<h1><a href="http://rljit.in/"><img align="left" src="logo6.jfif" alt="RLJIT" height="40" width="42"/>RLJIT</a></h1>
 		</div>
 		<div id="menu">
 			<ul>
@@ -43,11 +43,11 @@
 				<li></li>
 				<li><a href="/rljit_cse/index.html" accesskey="1" title="">Homepage</a></li>
 				
-				<li><a href="/rljit_cse/about_us.html" accesskey="2" title="">About Us</a></li>
-				<li><a href="/rljit_cse/StudentRegForm.html" accesskey="3" title="">Registration</a></li>
-				<li class="current_page_item"><a href="/rljit_cse/login.html" accesskey="4" title="">Login</a></li>
+				<li><a href="about_us.html" accesskey="2" title="">About Us</a></li>
+				<li><a href="StudentRegForm.html" accesskey="3" title="">Registration</a></li>
+				<li class="current_page_item"><a href="login.html" accesskey="4" title="">Login</a></li>
 				
-				<li><a href="/rljit_cse/logout1.php" accesskey="5" title="">Logout</a></li>
+				<li><a href="logout1.php" accesskey="5" title="">Logout</a></li>
 			</ul>
 		</div>
 	</div>
@@ -95,7 +95,7 @@
 					$_SESSION['password'] = $password;
 					
 					
-					header( "Location: /rljit_cse/staff_homepage.php");
+					header( "Location:staff_homepage.php");
 					}
 					else
 					{
