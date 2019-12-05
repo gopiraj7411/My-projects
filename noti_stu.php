@@ -89,7 +89,7 @@
 		echo '<tr>';
 		echo '<td align=center>' . $row['name'];
 		
-		echo "<td align=center><a title='Click here to download in file.' href='./stu/stu_download.php?id={$row['file']}'>{$row['file']} </a>"; 
+		echo "<td align=center><a title='Click here to download in file.' href='stu_download.php?id={$row['file']}'>{$row['file']} </a>"; 
 		echo '</tr>';
 		
 	}
@@ -98,7 +98,7 @@
 	echo '<br/>';
 	if($page_cur>1)
 	{
-	 echo '<a href="/stu_display.php?page='.($page_cur-1).'" style="cursor:pointer;color:DeepSkyBlue ;" ><input style="cursor:pointer;background-color:DeepSkyBlue;border:1px black solid;border-radius:5px;width:120px;height:30px;color:white;font-size:15px;font-weight:bold;" type="button" value=" Previous "></a> ';
+	 echo '<a href="stu_display.php?page='.($page_cur-1).'" style="cursor:pointer;color:DeepSkyBlue ;" ><input style="cursor:pointer;background-color:DeepSkyBlue;border:1px black solid;border-radius:5px;width:120px;height:30px;color:white;font-size:15px;font-weight:bold;" type="button" value=" Previous "></a> ';
      }
 	else
 	{
@@ -116,14 +116,14 @@
 		}
 		else
 		{
-		echo '<a href="/stu_display.php?page='.$i.'"> <input style="cursor:pointer;background-color:DeepSkyBlue ;border:1px black solid;border-radius:5px;width:30px;height:30px;color:white;font-size:15px;font-weight:bold;" type="button" value="'.$i.'"> </a> ';
+		echo '<a href="stu_display.php?page='.$i.'"> <input style="cursor:pointer;background-color:DeepSkyBlue ;border:1px black solid;border-radius:5px;width:30px;height:30px;color:white;font-size:15px;font-weight:bold;" type="button" value="'.$i.'"> </a> ';
 		
 		}
 	}
 	if($page_cur<$total_page)
 	{
 		
-		echo '<a href="/stu_display.php?page='.($page_cur+1).'"><input style="cursor:pointer;background-color:DeepSkyBlue ;border:1px black solid;border-radius:5px;width:90px;height:30px;color:white;font-size:15px;font-weight:bold;" type="button" value=" Next "></a>';
+		echo '<a href="stu_display.php?page='.($page_cur+1).'"><input style="cursor:pointer;background-color:DeepSkyBlue ;border:1px black solid;border-radius:5px;width:90px;height:30px;color:white;font-size:15px;font-weight:bold;" type="button" value=" Next "></a>';
   	  
 	}
 	else
