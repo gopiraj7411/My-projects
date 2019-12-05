@@ -6,10 +6,10 @@
 				}
 				else
 				{
-					header('location: /rljit_cse/login.html');
+					header('location:login.html');
 				}		
 ?>
-<!--<link rel="stylesheet" href="/rljit_cse/sta/stu_css/bootstrap.min.css" />
+<!--<link rel="stylesheet" href="bootstrap.min.css" />
     <style type="text/css">
 	#wrapper {
 	margin: 0 auto;
@@ -90,15 +90,15 @@ body
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link href="/rljit_cse/sidenav.css" rel="stylesheet" type="text/css" media="all" />
+<link href="sidenav.css" rel="stylesheet" type="text/css" media="all" />
 <!--SIDE BAR-->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Circular</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
-<link href="/rljit_cse/default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/rljit_cse/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 
 
@@ -106,7 +106,7 @@ body
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 
-	<link rel="stylesheet" href="/rljit_cse/sta/sta_css/bootstrap.min.css" />
+	<link rel="stylesheet" href="bootstrap.min.css" />
 <style>#copyright
 	{
 		overflow: hidden;
@@ -136,27 +136,27 @@ body
 <!--SIDE BAR-->
 	<div id="sidebar-wrapper">
         <ul id="sidebar_menu" class="sidebar-nav">
-           <li class="sidebar-brand"><a id="menu-toggle" href="/rljit_cse/hod_homepage.php">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+           <li class="sidebar-brand"><a id="menu-toggle" href="hod_homepage.php">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
         </ul>
         <ul class="sidebar-nav" id="sidebar">
           <li><b><font color="blue">STUDENT</font></b><span class="sub_icon glyphicon glyphicon-link"></span></li>
            <ul class="sidebar-nav" id="sidebar">
-                <li><a href="/rljit_cse/stu2_hod_view.php">2nd Year</a></li>
-                <li><a href="/rljit_cse/stu3_hod_view.php">3rd Year</a></li>
-				<li><a href="/rljit_cse/stu4_hod_view.php">4th Year</a></li>
+                <li><a href="stu2_hod_view.php">2nd Year</a></li>
+                <li><a href="stu3_hod_view.php">3rd Year</a></li>
+				<li><a href="stu4_hod_view.php">4th Year</a></li>
 				<li></li>
            </ul>
 		   <li>.</li>
           <li><b><font color="blue">STAFF</font></b><span class="sub_icon glyphicon glyphicon-link"></span></li>
 		  <ul class="sidebar-nav" id="sidebar">
-                <li><a href="/rljit_cse/staff_view.php">View</a></li>
-                <li><a href="/rljit_cse/staff_add1.php">Add</a></li>
+                <li><a href="staff_view.php">View</a></li>
+                <li><a href="staff_add1.php">Add</a></li>
            </ul>
 		   <li>.</li>
           <li><b><font color="blue">CIRCULAR</font></b><span class="sub_icon glyphicon glyphicon-link"></span></li>
 		  <ul class="sidebar-nav" id="sidebar">
-                <li><a href="/rljit_cse/stu/stu_upload.php">Student</a></li>
-				<li><a href="/rljit_cse/sta/sta_upload.php">Staff</a></li>
+                <li><a href="stu_upload.php">Student</a></li>
+				<li><a href="sta_upload.php">Staff</a></li>
            </ul>
 		   <li>.</li>
         </ul>
@@ -165,7 +165,7 @@ body
 	<div id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<h1><a href="http://rljit.in/"><img align="left" src="/rljit_cse/logo6.jfif" alt="RLJIT" height="40" width="42"/>RLJIT</a></h1>
+			<h1><a href="http://rljit.in/"><img align="left" src="logo6.jfif" alt="RLJIT" height="40" width="42"/>RLJIT</a></h1>
 		</div>
 		<div id="menu">
 			<ul>
@@ -175,7 +175,7 @@ body
 				<li></li>
 				<li></li>
 		
-				<li class="current_page_item"><a href="/rljit_cse/logout1.php" accesskey="5" title="">Logout</a></li>
+				<li class="current_page_item"><a href="logout1.php" accesskey="5" title="">Logout</a></li>
 			</ul>
 		</div>
 	</div>
