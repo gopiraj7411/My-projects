@@ -39,7 +39,7 @@
 	else
 	{
 		//echo " Error creating database: " .mysqli_error($conn);
-		echo '<script type="text/javascript">alert("Error creating database"); 	window.location = "/rljit_cse/StudentRegForm.html";</script>';
+		echo '<script type="text/javascript">alert("Error creating database"); 	window.location = "StudentRegForm.html";</script>';
 	}
 	
 	$check_duplicate="SELECT * FROM student WHERE email  = '$email'";
@@ -51,7 +51,7 @@
 	if($count>0)
 	{
 		//echo "<h4>Mail is already taken. Please use another Mail</h4>";
-		echo '<script type="text/javascript">alert("Mail is already taken. Please use another Mail"); 	window.location = "/rljit_cse/index.html";</script>';
+		echo '<script type="text/javascript">alert("Mail is already taken. Please use another Mail"); 	window.location = "index.html";</script>';
 	}
 	else
 	{
@@ -63,11 +63,11 @@
 	
 	if($check)
 	{
-		echo '<script type="text/javascript">alert("Registration Successfull"); 	window.location = "/rljit_cse/index.html";</script>';
+		echo '<script type="text/javascript">alert("Registration Successfull"); 	window.location = "index.html";</script>';
 	}
 	else
 	{
-		echo '<script type="text/javascript">alert("Error"); 	window.location = "/rljit_cse/index.html";</script>';
+		echo '<script type="text/javascript">alert("Error"); 	window.location = "index.html";</script>';
 	}
 	}
 ?>
