@@ -44,7 +44,7 @@ if($_SESSION['username']==true and $_SESSION['password']==true)
 		echo "<div align='center' > <font size=6> Staff Added Succussfully </font></div> ";
 		//header('location: 1sgeStdent.html');
 		
-			echo '<script type="text/javascript">alert("Data Added");    window.location = "/rljit_cse/staff_add1.php";    </script>';
+			echo '<script type="text/javascript">alert("Data Added");    window.location = "staff_add1.php";    </script>';
 		
 	}
 	else
@@ -56,6 +56,6 @@ if($_SESSION['username']==true and $_SESSION['password']==true)
 	}
 				else
 				{
-					header('location: /rljit_cse/login.html');
+					header('location:login.html');
 				}
 ?>
