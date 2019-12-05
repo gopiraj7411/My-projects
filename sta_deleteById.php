@@ -16,7 +16,7 @@ header("Location: sta_delete.php");
 				}
 				else
 				{
-					header('location: /rljit_cse/login.html');
+					header('location:login.html');
 				}		
 ?>
 
