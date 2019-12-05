@@ -33,16 +33,16 @@
         <ul class="sidebar-nav" id="sidebar">
           <li><b><font color="blue">STUDENT</font></b><span class="sub_icon glyphicon glyphicon-link"></span></li>
            <ul class="sidebar-nav" id="sidebar">
-                <li><a href="/rljit_cse/stu2_staff_view.php">2nd Year</a></li>
-                <li><a href="/rljit_cse/stu3_staff_view.php">3rd Year</a></li>
-				<li><a href="/rljit_cse/stu4_staff_view.php">4th Year</a></li>
+                <li><a href="stu2_staff_view.php">2nd Year</a></li>
+                <li><a href="stu3_staff_view.php">3rd Year</a></li>
+				<li><a href="stu4_staff_view.php">4th Year</a></li>
                 
 				<li></li>
            </ul>
 		   <li>.</li>
           <li><b><font color="blue">CIRCULAR</font></b><span class="sub_icon glyphicon glyphicon-link"></span></li>
 		  <ul class="sidebar-nav" id="sidebar">
-                <li><a href="/rljit_cse/sta/sta2_display.php">View </a></li>
+                <li><a href="sta2_display.php">View </a></li>
 				
            </ul>
 		   <li>.</li>
@@ -52,7 +52,7 @@
 	<div id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<h1><a href="http://rljit.in/"><img align="left" src="/rljit_cse/logo6.jfif" alt="RLJIT" height="40" width="42"/>RLJIT</a></h1>
+			<h1><a href="http://rljit.in/"><img align="left" src="logo6.jfif" alt="RLJIT" height="40" width="42"/>RLJIT</a></h1>
 		</div>
 		<div id="menu">
 			<ul>
@@ -62,7 +62,7 @@
 				<li></li>
 				<li></li>
 		
-				<li class="current_page_item"><a href="/rljit_cse/logout1.php" accesskey="5" title="">Logout</a></li>
+				<li class="current_page_item"><a href="logout1.php" accesskey="5" title="">Logout</a></li>
 			</ul>
 		</div>
 	</div>
@@ -108,6 +108,6 @@
 				}
 				else
 				{
-					header('location: /rljit_cse/login.html');
+					header('location:login.html');
 				}		
 ?>
