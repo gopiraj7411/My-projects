@@ -1,5 +1,5 @@
 <?php
-	$file = './sta/sta_download/'.$_GET['id'];
+	$file = 'sta_download/'.$_GET['id'];
    	$title=$_GET['id'];
 
     header("Pragma: public");
