@@ -29,8 +29,6 @@ Installation
 
 Project link is: https://gopiraj7411.github.io/My-projects/
 
-
-Happy Coding :)
  
 My LinkedIn Profile: https://www.linkedin.com/in/gopi-r-312401175
 
@@ -74,6 +72,16 @@ Screenshots With a Brief Explaination About the Project :
 8.Staff can only do the CURD operations for students not HOD and staff can only view the Circulars which is uploaded by HOD.
 
 ![alt tag](https://user-images.githubusercontent.com/49103837/74554352-5abd0780-4f7f-11ea-9c1b-37fa3510d59e.png)
+
+9. Staff and Student can Download the Circular and can view that.
+
+![alt tag](https://user-images.githubusercontent.com/49103837/74554724-33b30580-4f80-11ea-8290-9061ed911ac5.png)
+
+
+Happy Coding :)
+
+
+
 
 
 
