@@ -26,7 +26,7 @@ Installation
 
 12>Admin login details Username=hod and Password=hod.
 
-visit my other repository with  below link
+
 Project link is: https://gopiraj7411.github.io/My-projects/
 
 
@@ -37,5 +37,6 @@ My LinkedIn Profile: https://www.linkedin.com/in/gopi-r-312401175
 
 
 Screenshots:
+https://user-images.githubusercontent.com/49103837/74551782-d6b45100-4f79-11ea-8696-444aacb0d61c.png
   
   
