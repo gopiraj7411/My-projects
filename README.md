@@ -10,11 +10,6 @@ Installation
 
 3>Download project from github(https://github.com/gopiraj7411/My-projects.git).
 
-OR follow gitbash commands
-
-i>cd C:\\xampp\htdocs\
-
-ii>git clone https://github.com/PuneethReddyHC/online-shopping-system-advanced.git
 4>extract files in C:\xampp\htdocs.
 
 5> open link localhost/phpmyadmin
@@ -29,7 +24,7 @@ ii>git clone https://github.com/PuneethReddyHC/online-shopping-system-advanced.g
 
 11>open any browser and type http://localhost/rljit_cse.
 
-12>admin login details Username=hod and Password=hod.
+12>Admin login details Username=hod and Password=hod.
 
 visit my other repository with  below link
 Project link is: https://gopiraj7411.github.io/My-projects/
@@ -38,3 +33,9 @@ Project link is: https://gopiraj7411.github.io/My-projects/
 Happy Coding :)
  
 My LinkedIn Profile: https://www.linkedin.com/in/gopi-r-312401175
+
+
+
+Screenshots:
+  
+  
