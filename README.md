@@ -1,6 +1,6 @@
-# RLJIT_CSE
+# RLJIT_CSE (STUDENT DATABASE MANAGEMENT)
 
- Hello I'm Gopi, this is the  Web Project on CSE Department,RLJIT [DBMS project] with both admin and user layouts 
+ Hello I'm Gopi, this is the  Web Project on Student Database Mangement [DBMS project] with both admin and user layouts 
  
 Installation
 
