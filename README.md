@@ -37,6 +37,8 @@ My LinkedIn Profile: https://www.linkedin.com/in/gopi-r-312401175
 
 
 Screenshots:
-https://user-images.githubusercontent.com/49103837/74551782-d6b45100-4f79-11ea-8696-444aacb0d61c.png
+
+![alt tag](https://user-images.githubusercontent.com/49103837/74551782-d6b45100-4f79-11ea-8696-444aacb0d61c.png "Description goes here")
+
   
   
